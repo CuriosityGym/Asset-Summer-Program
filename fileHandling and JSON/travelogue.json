@@ -1,0 +1,11 @@
+{ 
+	"first_name":"Rupin",
+	"last_name":"Chheda",
+	"hobbies":["cycling", "swimming", "reading", "woodworking"],
+	"travelogue":[
+					{"location":"Leh-Ladakh, India","year":"2017"},
+					{"location":"Connecticut, USA","year":"2010"},
+					{"location":"Bali, Indonesia","year":"2013"},
+					{"location":"Goa, India","year":"2018"}
+				]
+ }
