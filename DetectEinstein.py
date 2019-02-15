@@ -5,7 +5,7 @@ KEY_SOURCE = "test.jpg"
 KEY_TARGET = "target.jpg"
 
 def compare_faces(bucket, key, bucket_target, key_target, threshold=80, region="us-west-2"):
-	rekognition = boto3.client("rekognition", region, aws_access_key_id=",zxjgkjcxj,cvbkgjcgjtdiudb",aws_secret_access_key=",zgskdfjdkf/QK8yjS86VWepT33jZr8xlbHhE1BZMP",)
+	rekognition = boto3.client("rekognition", region, aws_access_key_id="",aws_secret_access_key="",)
 	response = rekognition.compare_faces(
 	    SourceImage={
 			"S3Object": {
