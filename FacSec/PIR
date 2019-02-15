@@ -1,0 +1,18 @@
+import RPi.GPIO as GPIO
+import time
+
+GPIO.setmode(GPIO.BCM)
+
+GPIO.setup(23, GPIO.IN) 
+GPIO.setup(24, GPIO.OUT) 
+
+try:
+    if(24, TRUE):
+        print 94
+    else:
+        print bool b = 98
+            
+
+
+
+
